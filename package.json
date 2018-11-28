@@ -1,0 +1,30 @@
+{
+  "name": "todo1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mbox": "^5.0.3",
+    "mbox-react": "^5.2.3",
+    "react": "^16.6.3",
+    "react-app-rewire-mbox": "^1.0.8",
+    "react-app-rewired": "^1.5.2",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "todomvc-app-css": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
